@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/speech/build/
+/speech/build/intermediates/javac/debug/classes/

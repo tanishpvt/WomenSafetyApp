@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/banner_background"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Register Trusted Contacts Only"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+
+    <Button
+        android:layout_marginTop="370dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="Save"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:src="@drawable/calll"
+        android:layout_below="@+id/text"/>
+
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="220dp"
+    android:id="@+id/name">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Person Name"
+        android:fontFamily="sans-serif-light"
+        android:inputType="textPersonName" >
+
+    </EditText>
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobile"
+        android:layout_marginTop="290dp">
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:hint="Mobile Number"
+            android:inputType="phone" />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+</RelativeLayout>

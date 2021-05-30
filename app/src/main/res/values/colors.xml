@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d4cbe5</color>
+    <color name="colorPrimaryDark">#ffa600</color>
+    <color name="colorAccent">#272727</color>
+
+
+    <!--Body and background colors-->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+
+    <!--cards colors-->
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+
+</resources>

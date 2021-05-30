@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/banner_background"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:src="@drawable/calll"
+        android:layout_below="@+id/text2"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Register Your Phone Number"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Submit" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:id="@+id/verify">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:hint="Your Phone Number"
+            android:fontFamily="sans-serif-light"
+            android:inputType="phone">
+
+        </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
